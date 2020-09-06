@@ -1,0 +1,6 @@
+[user]
+	name = kyli0x
+[credential]
+    helper = cache
+[tag]
+    forceSignAnnotated = true

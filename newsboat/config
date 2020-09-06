@@ -1,0 +1,18 @@
+# General
+refresh-on-startup yes
+browser firefox
+player vlc
+max-items 10
+# Colors
+color listnormal            white default
+color listfocus             color207 default bold
+color listnormal_unread     color87 default
+color listfocus_unread      color207 default bold
+color info                  red black bold
+color article               white default
+
+# Keybinding
+bind-key q quit
+bind-key k up
+bind-key j down
+
