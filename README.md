@@ -11,7 +11,6 @@
     - [vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>) - Unix based text editor
     - [zsh](https://en.wikipedia.org/wiki/Z_shell) - Extended Bourne shell
     - .aliases
-<br>
 ### Install:
 ```
 $ git clone https://github.com/kyli0x/kyricer.git
