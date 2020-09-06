@@ -16,5 +16,5 @@
 $ git clone https://github.com/kyli0x/kyricer.git
 $ cd kyricer
 $ chmod +x kyricer.sh
-./kyricer.sh
+$ ./kyricer.sh
 ```
