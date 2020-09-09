@@ -12,3 +12,5 @@ cp vim/.vimrc ~/.vimrc
 cp -r alacritty/.config/alacritty ~/.config
 cp -r neofetch/.config/neofetch/ ~/.config
 cp radare2/.radare2rc ~/.radare2rc
+cp -r rofi/.config/rofi/config.rasi ~/.config
+cp -r bpytop/.config/* ~/.config
