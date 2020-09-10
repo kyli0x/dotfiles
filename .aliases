@@ -9,6 +9,6 @@ alias watch-network='sudo watch -n 1 -t lsof -P -i -n'
 alias scanlan='sudo nmap 10.0.0.0/24 -n -sP -PE -T5|grep report'
 alias mylan='ip -4 addr show eth0 |awk '\''/inet/ {print $2}'\'''
 alias pingle='ping google.com'
-
+alias ptop='bpytop'
 
 
