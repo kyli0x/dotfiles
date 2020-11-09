@@ -1,5 +1,10 @@
 ## The Kyricer (kyli0x's dotfiles)
 
+### Preview
+<p align="center">
+    <img src"https://github.com/kyli0x/dotfiles/blob/master/screenshots/screen1.png
+</p>
+
 ### Dotfiles included:
 - Settings for:
     - [alacritty](https://github.com/alacritty/alacritty) - Accelerated terminal emulator
