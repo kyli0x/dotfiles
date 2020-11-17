@@ -2,7 +2,7 @@
 
 ### Preview
 <p align="center">
-    <img src="https://github.com/kyli0x/dotfiles/blob/master/screenshots/screen1.png">
+    <img src="https://github.com/kyli0x/dotfiles/blob/main/screenshots/screen1.png">
 </p>
 
 ### Dotfiles included:
