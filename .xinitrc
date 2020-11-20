@@ -54,13 +54,16 @@ fi
 # Wallpaper
 nitrogen --restore &
 
+# audio
+pulseaudio &
+
+# compositor
+picom --experimental-backends &
+
 # loop
 while true; do
     dwm >/dev/null 2>&1
 done
-
-# compositor
-picom -f &
 
 # execute dwm
 exec dwm
