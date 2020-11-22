@@ -49,7 +49,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # dwm status
-/home/kyli0x/.config/suckless/dwm-bar/dwm_bar.sh &
+#~/.config/suckless/dwm-bar/dwm_bar.sh &
+#dwmblocks &
 
 # Wallpaper
 nitrogen --restore &
@@ -60,6 +61,10 @@ pulseaudio &
 # compositor
 picom --experimental-backends &
 
+# polybar
+sleep 1s && polybar mybar &
+sleep 1s && polybar mybar2 &
+
 # loop
 while true; do
     dwm >/dev/null 2>&1
@@ -67,3 +72,4 @@ done
 
 # execute dwm
 exec dwm
+
