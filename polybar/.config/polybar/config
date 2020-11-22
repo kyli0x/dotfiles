@@ -58,7 +58,7 @@ font-3 = siji:pixelsize=10;1
 
 modules-left = dwm
 modules-center = 
-modules-right = memory cpu pulseaudio date powermenu
+modules-right = 
 
 tray-position = right
 tray-padding = 2
@@ -109,13 +109,9 @@ font-1 = fixed:pixelsize=10;1
 font-2 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-3 = siji:pixelsize=10;1
 
-#font-1 = Nerd Font:pixelsize=10;1
-#font-2 = Nerd Font:fontformat=truetype:size=8:antialias=false;0
-#font-3 = siji:pixelsize=10;1
-
 modules-left = dwm
 modules-center = 
-modules-right = memory cpu pulseaudio date powermenu
+modules-right = memory cpu pulseaudio date
 
 tray-position = right
 tray-padding = 2
@@ -222,12 +218,16 @@ label-floating = F
 
 ; focused = Selected tag on focused monitor
 label-focused = %name%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+label-focused-background = ${colors.background}
+label-focused-underline = ${colors.background}
+#label-focused-underline= ${colors.primary}
+label-focused-foreground = #ec95ec
 label-focused-padding = 2
 
 ; unfocused = Unselected tag on unselected monitor
 label-unfocused = %name%
+label-unfocused-background = ${colors.background}
+label-unfocused-underline = ${colors.background} 
 label-unfocused-padding = 2
 
 ; visible = Unselected tag, but occupied tag on any monitor
@@ -287,7 +287,7 @@ type = internal/cpu
 interval = 2
 format-prefix = "cpu: "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #1aaba0
+#format-underline = #1aaba0
 label = %percentage:2%%
 
 [module/memory]
@@ -295,7 +295,7 @@ type = internal/memory
 interval = 2
 format-prefix = "mem: "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #1aaba0
+#format-underline = #1aaba0
 label = %percentage_used%%
 
 [module/wlan]
@@ -341,10 +341,10 @@ type = internal/date
 interval = 5
 
 date = %A %b %d
-date-alt = " %Y-%m-%d"
+#date-alt = " %Y-%m-%d"
 
 time = %H:%M
-time-alt = %H:%M:%S
+#time-alt = %H:%M:%S
 
 #format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
@@ -358,8 +358,11 @@ type = internal/pulseaudio
 format-volume = <label-volume> 
 format-underline = #1aaba0
 #<bar-volume>
-label-volume = VOL %percentage%%
+format-volume-prefix = "vol: "
+format-volume-prefix-foreground = ${colors.foreground-alt}
+label-volume =  %percentage%%
 label-volume-foreground = ${root.foreground}
+#label-volume-foreground = ${colors.foreground-alt}
 
 label-muted = 🔇 muted
 label-muted-foreground = #666
