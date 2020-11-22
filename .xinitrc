@@ -48,10 +48,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# dwm status
-#~/.config/suckless/dwm-bar/dwm_bar.sh &
-#dwmblocks &
-
 # Wallpaper
 nitrogen --restore &
 
