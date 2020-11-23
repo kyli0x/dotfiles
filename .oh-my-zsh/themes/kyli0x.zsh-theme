@@ -1,4 +1,4 @@
-# kurome theme
+# kyli0x theme
 # preview: https://cl.ly/1y2x0W0E3t2C0F29043z
 
 # features:
