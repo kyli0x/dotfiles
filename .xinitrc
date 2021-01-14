@@ -61,6 +61,9 @@ picom --experimental-backends &
 sleep 1s && polybar mybar &
 sleep 1s && polybar mybar2 &
 
+#numlock 
+numlockx &
+
 # loop
 while true; do
     dwm >/dev/null 2>&1
