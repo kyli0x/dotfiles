@@ -1,12 +1,17 @@
+/*================== Simplify Darkish Gray for Firefox ==================
+Author: dpcdpc11.gumroad.com
+ENJOY!
+*/
 
 /*================ GLOBAL COLORS ================*/
 :root {
 	--accent-color: 54, 54, 54;
-	--secondary-accent-color: 140, 140, 140;
+	--secondary-accent-color: 26, 171, 160;
 	--third-accent-color: 190, 190, 190;
 	--light-color: 255, 255, 255;
 	--dark-color: 36, 36, 36;
-	--caption-min-color: 82, 82, 82;
+
+    --caption-min-color: 21, 212, 155;
 	--caption-max-color: 100, 100, 100;
 	--caption-close-color: 126, 126, 126;
 }
