@@ -2,8 +2,8 @@
 
 ### Preview
 <p align="center">
-    <img src="https://github.com/kyli0x/dotfiles/blob/main/screenshots/screen01.png">
-    <img src="https://github.com/kyli0x/dotfiles/blob/main/screenshots/screen02.png">
+    <img src="https://github.com/kyli0x/dotfiles/blob/main/screenshots/screen001.png">
+    <img src="https://github.com/kyli0x/dotfiles/blob/main/screenshots/screen002.png">
 </p>
 
 ### Dotfiles included:
