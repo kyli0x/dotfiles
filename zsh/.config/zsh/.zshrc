@@ -3,7 +3,7 @@ export EDITOR=vim
 
 #enable colors and change prompt
 autoload -U colors && colors
-PS1="[%n:%F{cyan}%~%f]%# "
+PS1="[%n:%F{cyan}%~%f]$ "
 
 # History
 HISTFILE=~/.histfile
