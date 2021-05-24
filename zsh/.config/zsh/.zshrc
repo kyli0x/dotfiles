@@ -24,6 +24,7 @@ source $HOME/.aliases
 
 # vi mode
 bindkey -v
+bindkey '^R' history-incremental-search-backward
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/kyli0x/.zshrc'
