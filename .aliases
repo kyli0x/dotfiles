@@ -1,3 +1,4 @@
+alias ls='ls --color=tty'
 alias df='df -h'
 alias ll='ls -lh'
 alias z='zathura'

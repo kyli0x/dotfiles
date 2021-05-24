@@ -1,5 +1,6 @@
-if [[ "$(tty)" = "dev/tty1" ]]; then
-    pgrep dwm || startx
-fi
-eval "$(gh completion -s zsh)"
+exec startx
 
+export PATH="$HOME/.cargo/bin:$PATH"
+PATH="$PATH:/$HOME/.local"
+PATH="$PATH:/$HOME/.local/bin"
+PATH="$PATH:/$HOME/.local/bin/status-bar"
