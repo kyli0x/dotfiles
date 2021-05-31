@@ -14,6 +14,7 @@ export LANG=en_US.UTF-8
 
 # don't throw errors when file gobs don't match anything
 setopt NULL_GLOB
+setopt NO_CASE_GLOB
 
 # turn off beep
 unsetopt beep
@@ -31,7 +32,6 @@ zstyle :compinstall filename '/home/kyli0x/.zshrc'
 
 # auto complete
 autoload -Uz compinit
-compinit
 
 # the gits
 autoload -Uz vcs_info
