@@ -1,4 +1,4 @@
-## The Kyricer (kyli0x's dotfiles)
+## Kyli0x's dotfiles
 
 ### Preview
 <p align="center">
