@@ -58,11 +58,12 @@ nitrogen --restore &
 pulseaudio &
 
 # compositor
-picom --experimental-backends &
+picom &
 
 # polybar
 sleep 1s && polybar mybar &
 sleep 1s && polybar mybar2 &
+
 
 # numlock 
 numlockx &
